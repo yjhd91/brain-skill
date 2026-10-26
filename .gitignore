@@ -1,0 +1,5 @@
+# generated marker for local rebuilds; never publish
+.brain-publish
+*.tmp
+.DS_Store
+Thumbs.db
