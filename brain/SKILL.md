@@ -4,7 +4,7 @@ description: "长期复杂项目的资产恢复、可追溯校验、长任务保
 ---
 
 # Brain：恢复与证据入口
-权威：`$BRAIN_CORE/BRAIN_PROTOCOL.md`（U1–U29、§9 变更、§11 门控）。项目事实回项目原件；宿主/用户授权优先。本文件是目录不是摘要：DISCIPLINES_CORE 为生成索引，OPERATIONS 为条件细则，ASSET_RECOVERY 为本机绑定，均非平行权威。门 PASS 不等于恢复、遵守或完成。
+权威：`./BRAIN_PROTOCOL.md`（U1–U29、§9 变更、§11 门控）。项目事实回项目原件；宿主/用户授权优先。本文件是目录不是摘要：DISCIPLINES_CORE 为生成索引，OPERATIONS 为条件细则，ASSET_RECOVERY 为本机绑定，均非平行权威。门 PASS 不等于恢复、遵守或完成。
 
 ## 0. 每轮三步
 1 绑：确认绝对 root、cwd、记忆绑定，互不推定；错绑不写项目事实。
