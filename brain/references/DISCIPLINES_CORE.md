@@ -1389,7 +1389,7 @@ grep -rn "SelectEnclosedPoints" code/   # 只应出现在 918 的"为什么不�
 - 实测：仅改造计划任务后，C: 的 Temp 仍在 1h17m 内涨约 0.67 GB（约 16 GB/天）⇒ 我自己的每次工具调用也继承 C: 的 TEMP。
 - 固定动作（A#94 执行细则）：
   - pwsh 调用：命令开头加 $TEMP='$TMP_ROOT\pytemp'; $TEMP='$TMP_ROOT\pytemp'
-  - bash 调用：命令开头加 export TEMP=/g/adt_tmp/pytemp TMP=/g/adt_tmp/pytemp TMPDIR=/g/adt_tmp/pytemp
+  - bash 调用：命令开头加 export TEMP=$TMP_ROOT/pytemp TMP=$TMP_ROOT/pytemp TMPDIR=$TMP_ROOT/pytemp
   - 每轮收尾扫一次 %LOCALAPPDATA%\Temp 并安全清理 10 分钟前的文件
   - 阈值：若 Temp 超过 2 GB 立即清理并记录
 <!-- SRC aorta_protocol 0u c9dbf8dd6a -->

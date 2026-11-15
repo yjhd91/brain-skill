@@ -437,7 +437,7 @@
 ## §10 自检入口（任何人 / 任何会话，照此即可接管）
 
 ```bash
-cd "/d/Documents/课题/brain_core"
+cd "$BRAIN_CORE"  # 私有工作副本根目录
 python code/1300_protocol_gate.py            # 必须 PROTOCOL_GATE: PASS
 python code/86_sync_disciplines.py --scan    # 看已登记项目有无新纪律
 python code/86_sync_disciplines.py --verify  # 校验 skill 三层完整
